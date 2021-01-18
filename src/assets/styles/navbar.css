@@ -1,0 +1,19 @@
+.App .navbar {
+    background-color: #fdf3f0 !important;
+}
+
+nav a,
+.dropdown-item {
+    color: #3E6A85 !important;
+    outline: none;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #dedede;
+    color: #3E6A85;
+}
+
+.dropdown-item:active {
+    background-color: #fdf0f4 !important;
+}

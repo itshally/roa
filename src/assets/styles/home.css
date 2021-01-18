@@ -1,0 +1,204 @@
+.home-container {
+    margin: 0;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto;
+    background-color: #fdf3f0;
+    color: #635959;
+}
+
+.home-container .row {
+    width: auto !important;
+    max-width: 70rem !important;
+    margin: auto;
+    justify-content: space-around !important;
+    align-items: center;
+}
+
+.home-container .greeting-container {
+    padding: 7.5rem 0;
+    padding-bottom: 0rem;
+    margin: 1rem auto;
+    text-align: center;
+    background-position: center;
+    background-size: auto !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.home-container .greeting-container img {
+    max-height: 20rem;
+    max-width: 20rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home-container img {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    margin: 1.2rem auto;
+}
+
+.home-container h1 span {
+    color: #f197ad;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    line-height: 1.5;
+    white-space: break-spaces;
+    border-radius: 10px;
+}
+
+.home-container a,
+.home-container a:hover {
+    text-decoration: none !important;
+}
+
+.header-link,
+.header-link:hover {
+    text-decoration: none !important;
+}
+
+/* ------------------------- css for top characters ------------------------- */
+.home-container .card {
+    border: none !important;
+    margin: 2rem auto;
+    max-width: 15rem;
+    width: 100%;
+}
+
+.top-characters-container .row {
+    align-items: flex-start;
+}
+
+.top-characters-container .card-body {
+    padding: 10px 5px;
+}
+
+.top-characters-container .card img {
+    max-height: 8rem;
+    max-width: 8rem;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #635959;
+}
+
+.top-characters-container .card h3 {
+    font-size: 1.8rem;
+    width: 5rem;
+    margin: -2rem auto 1rem auto;
+}
+
+.top-characters-container .card h3 .badge {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 4.5px solid #fafafa;
+    background-color: #635959;
+    position: absolute;
+    top: 2.5%;
+    right: 20%;
+    transform: translate(-20%, 2.5%);
+}
+
+.top-characters-container h3 .badge svg {
+    font-size: 0.8rem;
+    color: #e6e600 !important;
+}
+
+.top-characters-container .card-title,
+.top-characters-container .card-text {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+.top-characters-container,
+.top-five-container {
+    padding: 3.5rem 2.5rem 2.5rem 2.5rem !important;
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px -3px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 5px -3px rgba(0, 0, 0, 0.26);
+    max-width: 60rem !important;
+    width: 100%;
+}
+
+.top-characters-container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.top-characters-container .card-body a,
+.top-characters-container .card-body a:hover,
+.top-characters-container .card-body a:focus {
+    text-decoration: none;
+}
+
+
+.top-characters-container .char-list-btn {
+    margin: 0 auto !important;
+}
+
+/* -------------------------- character rank table -------------------------- */
+
+.react-bs-container-body a,
+.react-bs-container-body a:hover,
+.react-bs-container-body a:focus {
+    text-decoration: none;
+}
+
+/* ------------------------------- top 5 anime ------------------------------ */
+.top-five-container {
+    padding: 2.5rem;
+    margin: 5rem auto;
+
+}
+
+.top-five-container .row {
+    align-items: flex-start;
+    justify-content: space-evenly !important;
+    padding: 0;
+}
+
+.top-five-container .card {
+    max-width: 15rem;
+    width: 100%;
+}
+
+.top-five-container .card-body {
+    padding: 5px;
+}
+
+.top-five-container .badge {
+    position: absolute;
+    right: -2.5%;
+    top: -2.5%;
+    transform: translate(2.5%, 2.5%);
+    font-size: 1rem;
+}
+
+.top-five-container .card-img-container {
+    padding: 0 !important;
+}
+
+.top-five-container .card-img-container img {
+    margin: 0;
+    width: 100%;
+}
+
+.top-five-container .card-body .card-title {
+    font-size: 12px;
+}

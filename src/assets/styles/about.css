@@ -1,0 +1,43 @@
+.about-container {
+    margin: auto;
+    line-height: 1.75;
+}
+
+.about-container .header {
+    background-color: pink;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.about-container h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-container ul {
+    list-style: none;
+}
+
+.about-container a,
+.about-container a:hover {
+    text-decoration: none;
+}
+
+.about-container h2,
+.about-container h3 {
+    text-align: center;
+}
+
+.about-container img {
+    margin: auto;
+    display: block;
+    max-width: 15rem;
+    width: 100%;
+    height: 100%;
+}
+
+.about-container p svg {
+    font-size: 2rem;
+}

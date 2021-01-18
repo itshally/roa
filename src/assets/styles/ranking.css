@@ -1,0 +1,64 @@
+.ranking-container {
+    background-color: #fafafa;
+    margin: 1rem auto;
+    padding: 1.5rem 1rem;
+}
+
+.ranking-container .spinner-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ranking-container .page-title {
+    text-align: center;
+    padding: 1rem;
+}
+
+.ranking-container .card {
+    padding: 0;
+    width: 12rem;
+    height: 15rem;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.ranking-container .card-img-container {
+    position: relative;
+    width: auto;
+}
+
+.ranking-container .card-img-container span {
+    position: absolute;
+    top: -5%;
+    left: 20%;
+    transform: translate(-20%, 5%);
+    padding: 0.5rem;
+}
+
+.ranking-container .card img {
+    height: 10rem;
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.ranking-container .card-body {
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.ranking-container .card-title {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ------------------------------- pagination ------------------------------- */
+.ranking-container .pagination {
+    width: 50%;
+    margin: auto;
+}
+
+.ranking-container .page-item {
+    margin: auto;
+}

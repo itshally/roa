@@ -1,0 +1,60 @@
+.char-profile-page {
+    padding: 2.5rem;
+}
+
+.char-profile-page .row {
+    padding: 1rem;
+    align-items: center;
+}
+
+.char-profile-page .char-prof-img {
+    max-width: 15rem;
+    max-height: 15rem;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.char-profile-page h5 {
+    font-weight: bold;
+}
+
+.char-profile-page ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.char-profile-page .nav {
+    justify-content: center;
+}
+
+.char-profile-page .tab-content {
+    padding: 1rem;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 5px -3px rgba(0, 0, 0, 0.26);
+}
+
+.char-profile-page .react-bs-table-bordered {
+    border: none !important;
+}
+
+.char-profile-page .react-bs-table-container img {
+    max-width: 8rem;
+    max-height: 8rem;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.char-profile-page .react-bs-table-container tr {
+    width: 100%;
+}
+
+.char-profile-page .tab-pane .row .rounded {
+    display: block;
+    padding: 0.5rem;
+    max-height: 20rem;
+    height: 100%;
+    width: auto;
+}

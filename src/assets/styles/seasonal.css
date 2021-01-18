@@ -1,0 +1,114 @@
+.seasonal-container {
+    padding: 1.5rem 0;
+}
+
+.seasonal-list-header {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.render-date-picker-container {
+    padding: 2.5rem;
+}
+
+.render-date-picker-container .row {
+    justify-content: center;
+}
+
+.render-date-picker-container .custom-select,
+.render-date-picker-container .react-datepicker__input-container,
+.render-date-picker-container .btn,
+#seasonPicker {
+    max-width: 15rem;
+    width: 100%;
+    margin: auto;
+}
+
+.render-date-picker-container select option:hover {
+    background-color: red !important;
+}
+
+.render-date-picker-container .col-sm-12,
+.render-date-picker-container .col-12 {
+    text-align: center;
+}
+
+.date-picker,
+.date-picker:active,
+.date-picker:focus {
+    width: 8rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    appearance: none;
+    outline: none;
+}
+
+.render-date-picker-container .col-sm-12 .date-picker,
+.render-date-picker-container .col-12 .date-picker {
+    width: 100%;
+}
+
+.render-date-picker-container .react-datepicker__year-wrapper {
+    max-width: 215px;
+}
+
+.render-date-picker-container .react-datepicker__year-text {
+    margin: auto !important;
+}
+
+.render-date-picker-container .react-datepicker__year-text {
+    padding: 5px;
+}
+
+.render-date-picker-container .btn,
+.render-date-picker-container .btn:hover,
+.render-date-picker-container .btn:active,
+.render-date-picker-container .btn:focus {
+    background-color: #3E6A85 !important;
+    border-color: #3E6A85 !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* ------------------------------- list group ------------------------------- */
+.seasonal-container .list-group-item {
+    margin: 1rem 0;
+}
+
+.seasonal-container .list-group-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seasonal-container .badge-pill {
+    margin-right: 2.5px;
+    padding: 2.5px 7.5px;
+}
+
+.seasonal-container .list-group-item .img-thumbnail {
+    display: block;
+    margin: auto;
+}
+
+.seasonal-container .list-group-item h4 {
+    margin-top: 10px;
+}
+
+.seasonal-container .empty-container {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.seasonal-container .empty-container img {
+    max-height: 20rem;
+    max-width: 20rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
