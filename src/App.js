@@ -21,10 +21,10 @@ const App = () => {
                 <div className="body-container">
                     <Switch>
                         <Route exact path="/" component={Home}/>
-                        <Route path="/about" component={About}/>
-                        <Route path="/seasonal" component={Seasonal}/>
-                        <Route path="/:top" component={Ranking}/>
-                        <Route path="/character/:id" component={Character}/>
+                        <Route exact path="/about" component={About}/>
+                        <Route exact path="/seasonal" component={Seasonal}/>
+                        <Route exact path="/:top" component={Ranking}/>
+                        <Route exact path="/character/:id" component={Character}/>
                     </Switch>
                 </div>
             </Router>
