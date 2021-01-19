@@ -3,7 +3,7 @@ import { Container, Pagination } from 'react-bootstrap';
 
 import { connect } from 'react-redux'
 import {
-    getTopSeriesAnime,
+    getAllTopAnime,
     getTopAiringAnime,
     getTopUpcomingAnime,
     getTopTVSeriesAnime,
@@ -29,8 +29,8 @@ class Ranking extends Component {
         const path = window.location.pathname;
         
         switch(path){
-            case `/top-series`:
-                this.props.getTopSeriesAnime(this.state.pageNumber)
+            case `/all-anime`:
+                this.props.getAllTopAnime(this.state.pageNumber)
                 break;
             case '/top-airing':
                 this.props.getTopAiringAnime(this.state.pageNumber) 
@@ -57,7 +57,7 @@ class Ranking extends Component {
                 this.props.getMostFavoritedAnime(this.state.pageNumber)
                 break;
             default: 
-                this.props.getTopSeriesAnime(this.state.pageNumber)
+                this.props.getAllTopAnime(this.state.pageNumber)
                 break;
         }
     }
@@ -106,7 +106,7 @@ const mapStateToProps = state => {
 }
 
 export default connect(mapStateToProps, {
-    getTopSeriesAnime,
+    getAllTopAnime,
     getTopAiringAnime,
     getTopUpcomingAnime,
     getTopTVSeriesAnime,

@@ -18,7 +18,7 @@ const NavigationBar = () => {
 
                     <NavDropdown title="Top Anime" id="basic-nav-dropdown">
                         <Link to='/top-series'>
-                            <NavDropdown.Item href="/top-series">Top Series</NavDropdown.Item>
+                            <NavDropdown.Item href="/all-anime">All Anime</NavDropdown.Item>
                         </Link>
 
                         <Link to="/top-airing">

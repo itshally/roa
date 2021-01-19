@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { 
-    GET_TOP_SERIES_ANIME,
+    GET_ALL_TOP_ANIME,
     GET_TOP_AIRING_ANIME,
     GET_TOP_UPCOMING_ANIME,
     GET_TOP_TV_SERIES_ANIME,
@@ -18,14 +18,14 @@ import {
 
 /* ------------------------ all anime list by ranking ----------------------- */
 
-export const getTopSeriesAnime = (page_number) => {
+export const getAllTopAnime = (page_number) => {
     return (dispatch) => {
         axios.get(`https://api.jikan.moe/v3/top/anime/${page_number}`)
             .then( response => {
                 const data = response.data
                 
                 dispatch({
-                    type: GET_TOP_SERIES_ANIME,
+                    type: GET_ALL_TOP_ANIME,
                     payload: data
                 })
             })

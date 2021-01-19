@@ -1,5 +1,5 @@
 import {
-    GET_TOP_SERIES_ANIME,
+    GET_ALL_TOP_ANIME,
     GET_TOP_AIRING_ANIME,
     GET_TOP_UPCOMING_ANIME,
     GET_TOP_TV_SERIES_ANIME,
@@ -17,10 +17,10 @@ const INITIAL_STATE = {
 
 const anime = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        case GET_TOP_SERIES_ANIME:
+        case GET_ALL_TOP_ANIME:
             return {
                 topAnime: action.payload,
-                topTitle: 'Top Series',
+                topTitle: 'All Top Anime',
                 loading: false
             }
         case GET_TOP_AIRING_ANIME:
